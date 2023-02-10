@@ -34,5 +34,5 @@ mongoose.connection.on("connected", () => {
   });
 });
 mongoose.connection.on("error", () => {
-  console.log(err);
+  console.log(error);
 });
